@@ -1,5 +1,4 @@
-# Debian bookworm + EarthScope ringserver from source. Pin RINGSERVER_VERSION.
-# Unofficial. Not EarthScope-supported.
+# Debian bookworm + EarthScope ringserver. Pin RINGSERVER_VERSION.
 
 ARG BASE=debian:bookworm-slim
 

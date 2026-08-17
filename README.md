@@ -3,7 +3,7 @@
 ![CI](https://github.com/platformfuzz/ringserver/actions/workflows/ci.yml/badge.svg)
 ![Build and Release](https://github.com/platformfuzz/ringserver/actions/workflows/build-and-release.yml/badge.svg)
 
-Unofficial ringserver image built from EarthScope source. Not EarthScope-supported.
+Ringserver image built from EarthScope.
 
 Listens on TCP 18000 (SeedLink) and TCP 16000 (DataLink). Ring files live under
 `/data/ring`. Mount that path if the ring must survive restarts.
