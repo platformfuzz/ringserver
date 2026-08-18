@@ -9,7 +9,11 @@ on:
   workflow_dispatch:
 
 jobs:
+  smoke:
+    uses: ./.github/workflows/smoke.yml
+
   build:
+    needs: smoke
     permissions:
       contents: write
       packages: write
